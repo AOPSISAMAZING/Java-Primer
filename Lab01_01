@@ -1,0 +1,10 @@
+class Main {
+  public static void main(String[] args) {
+System.out.println("  :::::::. .,:::::::::.    :::.");
+System.out.println(" ;;;'';;';;;;''''`;;;;,  `;;;");
+System.out.println(" [[[__[[\\.[[cccc   [[[[[. '[[");
+System.out.println(" $$\"\"\"\"Y$$$$\"\"\"\"   $$$ \"Y$c$$");
+System.out.println("_88o,,od8P888oo,__ 888    Y88");
+System.out.println("\"\"\"YUMMMP\" \"\"\"\"YUMMMMMM     YM");
+  }
+}
