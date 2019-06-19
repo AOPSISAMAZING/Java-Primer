@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner userInput = new Scanner(System.in);
+    System.out.print(" What is your fist number");
+    double firstnumber = userInput.nextDouble();
+    System.out.print(" What is your second number");
+    double secondnumber = userInput.nextDouble();
+    double dividend= firstnumber/secondnumber;
+    System.out.println(" your quotient is "+dividend );
+    }
+}
