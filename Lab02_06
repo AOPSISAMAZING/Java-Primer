@@ -1,0 +1,14 @@
+import java.util.Scanner;
+import java.math.*;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner userInput = new Scanner(System.in);
+    System.out.print(" What is the radius ");
+    double radius = userInput.nextDouble();
+    System.out.print(" What is your height ");
+    double height = userInput.nextDouble();
+    double volume= radius*radius*height*Math.PI;
+    System.out.println(" the volume is "+volume );
+    }
+}
