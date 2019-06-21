@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+
+class Main {
+  public static void main(String[] args) {
+    Scanner keyboard = new Scanner(System.in);
+    System.out.println("What is your first number");
+    Double one = keyboard.nextDouble();
+    System.out.println("What is your second number");
+    Double two = keyboard.nextDouble();
+    System.out.println("What do you want to do. Press 1 to mutiply press 2 to divide press 3 to add press 4 to subtract");
+    Double three = keyboard.nextDouble();
+
+    if(three==1){
+      double four= one*two;
+      System.out.println("Your product is"+ four);
+    }else if(three==2){
+      double five= one/two;
+      System.out.println("Your quotient is"+ five);
+    }else if(three==3){
+      double six= one+two;
+      System.out.println("Your sum is"+ six);
+  }else if(three==4){
+      double seven= one-two;
+      System.out.println("Your difference is"+ seven);
+    }
+  }
+}
