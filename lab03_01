@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner keyboard = new Scanner(System.in);
+    System.out.println("What is your weight in kilograms");
+    Double weight = keyboard.nextDouble();
+    System.out.println("What is your height in meters");
+    Double height = keyboard.nextDouble();
+    Double BMI = (weight)/height*height;
+    if(BMI<=18.5){
+      System.out.println("Hi, you are underweight with your bmi of "+ BMI + "you should eat more" );
+    } else if (18.5<=BMI && BMI<24.9){
+      System.out.println("Hi, you are perfect with your bmi of "+ BMI);
+    } else if(25<=BMI && BMI<29.9){
+      System.out.println("Hi, you are overweight with your bmi of" + BMI+"You should consider a salad");
+    }else if (BMI>=30){
+      System.out.println("Hi, you are obese with your bmi of" + BMI +"YOu should really eat a salad before its to late");
+    }
+
+
+  }
+}
