@@ -1,0 +1,38 @@
+import java.util.Scanner;
+class Main {
+   public static void main(String[] args) {
+    Scanner userInput = new Scanner(System.in);
+    System.out.println("What is your fist number");
+    double numbOne = userInput.nextDouble();
+    System.out.println("What is your second number");
+    double numbTwo = userInput.nextDouble();
+    System.out.print("dou you want to add, subtract,  mutiply, or divide ");
+    userInput.nextLine();
+    String i = userInput.nextLine();
+    if (i.equalsIgnoreCase("add")){
+      add(numbOne, numbTwo);
+    }else if(i.equalsIgnoreCase("subtract")){
+      subtract(numbOne, numbTwo);
+    }else if(i.equalsIgnoreCase("mutiply")){
+       mutiply(numbOne, numbTwo);
+    }else if(i.equalsIgnoreCase("divide")){
+       divide(numbOne, numbTwo);
+    }
+  }
+  public static void add(double numbOne, double numbTwo){
+    double sum = numbOne+numbTwo;
+    System.out.println("the sum is "+ sum);
+  }
+  public static void subtract(double numbOne, double numbTwo){
+    double sum = numbOne-numbTwo;
+    System.out.println("the difference is "+ sum);
+  }
+  public static void mutiply(double numbOne, double numbTwo){
+    double sum = numbOne*numbTwo;
+    System.out.println("the product is "+ sum);
+  }
+  public static void divide(double numbOne, double numbTwo){
+    double sum = numbOne/numbTwo;
+    System.out.println("the quotient is "+ sum);
+  }
+}
