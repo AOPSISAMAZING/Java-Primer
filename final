@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+import javax.print.attribute.standard.JobHoldUntil;
+
+
+class Main {
+  public static void main(String[] args) 
+    Scanner userInput = new Scanner(System.in);
+    System.out.println(johnargs));
+  }
+
+  public static void john(String[] args) {
+    Scanner userInput = new Scanner(System.in);
+    System.out.print("how many items do you want to enter[y/n]");
+    int i = userInput.nextInt();
+    for(i=i; i>0; i--){
+    userInput.nextLine();
+    System.out.println("What is your next item");
+    String one = userInput.nextLine();
+    System.out.println("What is the price");
+    double two = userInput.nextDouble();
+    
+  System.out.println(one+"=                 $"+two);}
+
+    
+
+
+    
+    
+  }
+}
